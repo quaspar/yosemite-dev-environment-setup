@@ -69,13 +69,15 @@ Ok source ~/.bash_profile
 
 ````
 OK rbenv install 2.1.3
-rbenv global 2.1.3
-gem install rails
-rbenv rehash
+OK rbenv global 2.1.3
+OK gem install rails
+OK rbenv rehash
 ````
 
 #####Check thyself before you wreck thyself:
 ```` ruby -v ```` should give you 2.1.3 and ````rails --version```` should output 4.1.6
+Min output: ruby 2.1.3p242 (2014-09-19 revision 47630) [x86_64-darwin14.0]
+Min output: Rails 4.2.1
 
 
 ###Git and Github
