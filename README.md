@@ -2,36 +2,36 @@
 
 
 ###Install OSX Yosemite
-* Pop in your bootable OSX Yosemite USB stick.
-* Wipe your hard drive by powering on your Mac while holding down the Option key, select the OSX USB drive, go to Utilities > Disk Utility, and format your hard disk in Mac OSX (Journaled) format.
-* Don't sign in with your Apple ID right away.
+* OK Wipe your hard drive by powering on your Mac while holding down the Option key, select the OSX USB drive, go to Utilities > Disk Utility, and format your hard disk in Mac OSX (Journaled) format.
+* Gjorde det. (Don't sign in with your Apple ID right away.)
 
 
 ###Xcode:
-* Download Xcode from the App Store. It will take a while so do this first.
-* Install all updates for your OS etc.
-* Get Xcode's command line tools to get GCC, git and other goodies.
-* Once it downloads do ````xcode-select --install```` to get the command line tools.
+* OK Download Xcode from the App Store. It will take a while so do this first.
+* OK Install all updates for your OS etc.
+* OK Get Xcode's command line tools to get GCC, git and other goodies.
+* OK Once it downloads do ````xcode-select --install```` to get the command line tools.
 
 
 
 ###System preferences:
 While Xcode takes forever to download
-
+OK
 * *Dock*: Shrink the dock. 
 * *Mission Control*: Set up hot corners for mission control and show desktop.
 * *Displays*: Arrangement-> uncheck mirror displays, arrange second monitor to your liking. 
 * *Trackpad*: Tap to click, X scroll direction, X swipe between pages 
 
 ###Fix (some) Privacy Intrusions
+Inte gjort
 Apple is just going to send your data to fucking Microsoft of all places if you don't do this.
 * Follow the instructions at [Fix Mac OSX](https://fix-macosx.com) You can even do this automatically by running a Python script, but we aren't ready for that yet.
 
 ### Get Rid of Apple's stupid shit programs
+OK
 In a Terminal window, enter: 
 
 ````sudo chflags hidden /Applications/Bullshit.app````
-
 (Replace "Bullshit" with Maps, for example.)
  
 This will hide Apple's perplexingly awful default programs that are inadvisable to delete outright.
@@ -40,31 +40,35 @@ I also deleted the stock alerts in the notifications panel.
 
 
 ###Homebrew
+OK
 ````
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
+==> This script will install:
+/usr/local/bin/brew
+/usr/local/Library/...
+/usr/local/share/man/man1/brew.1
 ````
 
 * Homebrew will ask you to download Xcode command line tools. When finished, run: 
 
 ````
-brew doctor
-brew update
+OK brew doctor
+Ok brew update
 ````
 ### Rbenv, Ruby, and Rails
 Much of this follows some of the instructions on [GoRails](https://gorails.com/setup/osx/10.10-yosemite).
 
 ````
-brew install rbenv ruby-build
+OK brew install rbenv ruby-build
 ````
 
 ````
-echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
-source ~/.bash_profile
+OK echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
+Ok source ~/.bash_profile
 ````
 
 ````
-rbenv install 2.1.3
+OK rbenv install 2.1.3
 rbenv global 2.1.3
 gem install rails
 rbenv rehash
