@@ -82,7 +82,7 @@ Min output: Rails 4.2.1
 
 ###Git and Github
 * Git config:
-
+OK
 ````
 git config --global color.ui true
 git config --global user.name "First Last"
@@ -92,7 +92,7 @@ Set up 2-factor authentication on github.
 
 ###Generate SSH keys:
 * In Terminal:
-
+OK
 ````
 cd ~/.ssh
 ssh-keygen -t rsa -C "you@yo.com"
@@ -104,6 +104,7 @@ pbcopy < ~/.ssh/id_rsa.pub
 ````ssh -T git@github.com```` checks that this actually worked.
 
 ###Postgresql
+skippade detta
 ````
 brew install postgresql
 ln -sfv /usr/local/opt/postgresql/*plist ~/Library/LaunchAgents
@@ -114,15 +115,16 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 ````
 ###Firefox
 * Get the [developer edition!](https://www.mozilla.org/en-US/firefox/developer/)
-
+nope, chrome
 
 ###Sublime Text 3:
+OK
 * [Download](http://www.sublimetext.com/)
 * [Package control](https://sublime.wbond.net/installation)
 * Emmet
 * Sublime Linter
 * Set up subl command line shortcut: 
-
+OK
 ````ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl````
 
 
