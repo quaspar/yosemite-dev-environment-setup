@@ -129,7 +129,7 @@ OK
 
 
 * Some settings to get you started:
-
+ok
 ````
 {
 	"bold_folder_labels": true,
@@ -149,11 +149,12 @@ OK
 }
 ````
 ###iTerm2:
-* [Download](http://www.iterm2.com/#/section/home)
-* I highly recommend a [heads-up terminal](http://ivanvillareal.com/osx/setup-iterm2-to-behave-like-guake/) for running servers and some color schemes such as [solarized](http://iterm2colorschemes.com/)
+* ok [Download](http://www.iterm2.com/#/section/home)
+* skippade det I highly recommend a [heads-up terminal](http://ivanvillareal.com/osx/setup-iterm2-to-behave-like-guake/) for running servers 
+* ok and some color schemes such as [solarized](http://iterm2colorschemes.com/)
 
 ###Chrome:
-Set up gmail, drive, and 2-factor authentication
+att göra Set up gmail, drive, and 2-factor authentication
 Suggested Extensions:
 
 *JSONView
@@ -163,21 +164,21 @@ Suggested Extensions:
 ###Python, pip and virtualenv
 
 `````
-brew install python # python comes with OSX but this installs pip and some other stuff
-pip install virtualenv
+ok brew install python # python comes with OSX but this installs pip and some other stuff
+ok pip install virtualenv
 `````
 
 ###Mongodb
 * Installation with homebrew:
 
 ````	
-brew install mongodb
+ok brew install mongodb
 ````
 * To start mongodb server, run ```` mongod ```` 
 * For a shell, just type ```` mongo ```` 
 
 ###Vim
-* get yourself a nice vim distro like spf13 
+* inte än get yourself a nice vim distro like spf13 
 
 ````curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh)````
 
