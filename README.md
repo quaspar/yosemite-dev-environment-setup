@@ -196,3 +196,12 @@ ok brew install mongodb
 * Twitter
 * Libre Office
 * 
+
+
+### Installerade pyproj
+gjorde dessa steg:
+clone github repo or download source release at http://python.org/pypi/pyproj.
+python setup.py build
+python setup.py install (with sudo if necessary).
+To test, run python -c "import pyproj; pyproj.test()"
+(test passed)
