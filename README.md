@@ -214,3 +214,6 @@ In addition, /usr/local/google_appengine points to the SDK.
 
 * not från django-nonrel:
 * Since Google App Engine runs your Python code from within a sandbox, some standard Python installation methods are unavailable. For example, you cannot install django or other Python modules in your system’s Python library. All code for your app must be installed in your project directory.
+
+### Installerade Mysql
+ Mac OS X ver. 10.9 (x86, 64-bit), DMG Archive
