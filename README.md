@@ -211,3 +211,6 @@ Google App Engine Launcher finns nu i /Applications
 Symbolic links in /usr/local/bin have been created for the following commands:
 _php_runtime.py _python_runtime.py api_server.py appcfg.py backends_conversion.py bulkload_client.py bulkloader.py dev_appserver.py download_appstats.py endpointscfg.py gen_protorpc.py google_sql.py php_cli.py remote_api_shell.py run_tests.py wrapper_util.py 
 In addition, /usr/local/google_appengine points to the SDK.
+
+* not från django-nonrel:
+* Since Google App Engine runs your Python code from within a sandbox, some standard Python installation methods are unavailable. For example, you cannot install django or other Python modules in your system’s Python library. All code for your app must be installed in your project directory.
