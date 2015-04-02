@@ -217,3 +217,6 @@ In addition, /usr/local/google_appengine points to the SDK.
 
 ### Installerade Mysql
  Mac OS X ver. 10.9 (x86, 64-bit), DMG Archive
+ 
+ Installerade Mysqlclient:
+ Successfully installed mysqlclient-1.3.6
