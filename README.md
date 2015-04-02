@@ -223,3 +223,12 @@ In addition, /usr/local/google_appengine points to the SDK.
  Lade till detta i /etc/paths:
  /usr/local/mysql/bin
  (efter rekommendation här http://stackoverflow.com/a/12621216)
+ 
+ ### installerade Django
+ pip install django
+Collecting django
+  Downloading Django-1.8-py2.py3-none-any.whl (6.2MB)
+    100% |################################| 6.2MB 46kB/s
+Installing collected packages: django
+
+Successfully installed django-1.8
