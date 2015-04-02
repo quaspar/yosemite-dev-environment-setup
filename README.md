@@ -232,3 +232,14 @@ Collecting django
 Installing collected packages: django
 
 Successfully installed django-1.8
+
+
+Gjorde denna symlänk:
+sudo ln -s /usr/local/mysql/lib/libmysqlclient.18.dylib /usr/lib/libmysqlclient.18.dylib
+
+efter att ha fått detta fel:
+"django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module: dlopen(/usr/local/lib/python2.7/site-packages/_mysql.so, 2): Library not loaded: libmysqlclient.18.dylib
+  Referenced from: /usr/local/lib/python2.7/site-packages/_mysql.so
+  Reason: image not found"
+  
+ Lösningen fanns här: http://codingtip.blogspot.se/2014/01/error-loading-mysqldb-module-image-not.html
