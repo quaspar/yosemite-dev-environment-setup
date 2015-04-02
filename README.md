@@ -220,3 +220,6 @@ In addition, /usr/local/google_appengine points to the SDK.
  
  Installerade Mysqlclient:
  Successfully installed mysqlclient-1.3.6
+ Lade till detta i /etc/paths:
+ /usr/local/mysql/bin
+ (efter rekommendation här http://stackoverflow.com/a/12621216)
