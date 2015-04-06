@@ -243,3 +243,7 @@ efter att ha fått detta fel:
   Reason: image not found"
   
  Lösningen fanns här: http://codingtip.blogspot.se/2014/01/error-loading-mysqldb-module-image-not.html
+
+### installerade pytz
+https://docs.djangoproject.com/en/1.8/topics/i18n/
+Successfully installed pytz-2015.2
