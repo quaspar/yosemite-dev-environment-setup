@@ -166,6 +166,18 @@ Suggested Extensions:
 `````
 ok brew install python # python comes with OSX but this installs pip and some other stuff
 ok pip install virtualenv
+
+ok pip install virtualenvwrapper
+Installing collected packages: pbr, six, argparse, stevedore, virtualenv-clone, virtualenvwrapper
+
+
+
+
+  Running setup.py install for virtualenv-clone
+    Installing virtualenv-clone script to /usr/local/bin
+
+Successfully installed argparse-1.3.0 pbr-0.10.8 six-1.9.0 stevedore-1.4.0 virtualenv-clone-0.2.5 virtualenvwrapper-4.5.0
+
 `````
 
 ###Mongodb
