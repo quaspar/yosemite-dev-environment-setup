@@ -259,3 +259,6 @@ efter att ha fått detta fel:
 ### installerade pytz
 https://docs.djangoproject.com/en/1.8/topics/i18n/
 Successfully installed pytz-2015.2
+
+### bower
+npm install -g bower
